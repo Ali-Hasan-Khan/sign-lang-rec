@@ -3,7 +3,7 @@
 This project implements a deep learning model for American Sign Language (ASL) recognition using Convolutional Neural Networks (CNNs).
 
 ## Project Structure
-
+```
 sign_language_recognition/
 │
 ├── data/
@@ -34,7 +34,7 @@ sign_language_recognition/
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 ## Setup
 
 1. Clone this repository
@@ -62,4 +62,4 @@ The model is a Convolutional Neural Network (CNN) with the following architectur
 
 ## Results
 
-The model achieves 92.36% accuracy on the test set. The confusion matrix and classification report provide detailed performance metrics for each class.
+The model achieves 91.72% accuracy on the test set. The confusion matrix and classification report provide detailed performance metrics for each class.
