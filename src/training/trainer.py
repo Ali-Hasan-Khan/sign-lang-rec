@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
+from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
 
 class ModelTrainer:
     def __init__(self, model, model_save_path="models/weights-improvement.keras"):
